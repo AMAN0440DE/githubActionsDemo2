@@ -1,0 +1,16 @@
+name: Manual Workflow Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  manual-job:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Print Message
+
+        run: echo "Workflow Started Manually"
