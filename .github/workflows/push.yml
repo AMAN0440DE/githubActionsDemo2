@@ -1,0 +1,16 @@
+name: Push Trigger Demo
+
+on:
+  push:
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Welcome
+
+        run: echo "Push Trigger Executed"
